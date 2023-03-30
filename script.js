@@ -2,7 +2,7 @@
 const radioBtns = document.querySelectorAll('input[type=radio]');
 const player = document.createElement("audio");
 const stations = {
-    "r1": "https://icecast.thisisdax.com/SmoothLondonMP3",
+    "r1": "https://101.ru/radio/user/794981",
     "r2": "https://icecast.thisisdax.com/CapitalXTRALondonMP3",
     "r3": "https://online.kissfm.ua/KissFM",
     "r4": "https://ais-edge102-live365-dal02.cdnstream.com/a80518",
