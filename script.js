@@ -2,11 +2,11 @@
 const radioBtns = document.querySelectorAll('input[type=radio]');
 const player = document.createElement("audio");
 const stations = {
-    "r1": "https://101.ru/radio/user/794981",
-    "r2": "https://icecast.thisisdax.com/CapitalXTRALondonMP3",
-    "r3": "https://online.kissfm.ua/KissFM",
-    "r4": "https://ais-edge102-live365-dal02.cdnstream.com/a80518",
-    "r5": "https://online.radioroks.ua/RadioROKS",
+    "r1": "https://a1.radioheart.ru:9001/gagauzradiosu",
+    "r2": "https://a1.radioheart.ru:9001/gagauzradiosu",
+    "r3": "https://a1.radioheart.ru:9001/gagauzradiosu",
+    "r4": "https://a1.radioheart.ru:9001/gagauzradiosu",
+    "r5": "https://a1.radioheart.ru:9001/gagauzradiosu",
 };
 radioBtns.forEach(rb => {
     rb.addEventListener('input', e => {
