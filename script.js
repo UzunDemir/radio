@@ -3,10 +3,10 @@ const radioBtns = document.querySelectorAll('input[type=radio]');
 const player = document.createElement("audio");
 const stations = {
     "r1": "https://a1.radioheart.ru:9001/gagauzradiosu",
-    "r2": "https://a1.radioheart.ru:9001/gagauzradiosu",
-    "r3": "https://a1.radioheart.ru:9001/gagauzradiosu",
-    "r4": "https://a1.radioheart.ru:9001/gagauzradiosu",
-    "r5": "https://a1.radioheart.ru:9001/gagauzradiosu",
+    "r2": "https://str1.pcradio.ru/power_turk-med",
+    "r3": "https://str1.pcradio.ru/uzmanfm_com-med",
+    "r4": "https://str1.pcradio.ru/kavkaz_hit-med",
+    "r5": "https://str1.pcradio.ru/marusya_fm-med",
 };
 radioBtns.forEach(rb => {
     rb.addEventListener('input', e => {
