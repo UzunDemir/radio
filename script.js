@@ -2,7 +2,7 @@
 const radioBtns = document.querySelectorAll('input[type=radio]');
 const player = document.createElement("audio");
 const stations = {
-    "r1": "https://a1.radioheart.ru:9001/gagauzradiosu",
+    "r1": "https://pub0202.101.ru:8443/stream/personal/aacp/64/794981?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJrZXkiOiJhOTIyNzIzY2ZkMWIxMTNiYWM4YjY0MjRjYTUwODQ5NiIsIklQIjoiOTUuNjUuOTIuMTc2IiwiVUEiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTE5LjAuMC4wIFNhZmFyaS81MzcuMzYiLCJSZWYiOiJodHRwczovLzEwMS5ydS8iLCJ1aWRfY2hhbm5lbCI6Ijc5NDk4MSIsInR5cGVfY2hhbm5lbCI6InBlcnNvbmFsIiwidHlwZURldmljZSI6IlBDIiwiQnJvd3NlciI6IkNocm9tZSIsIkJyb3dzZXJWZXJzaW9uIjoiMTE5LjAuMC4wIiwiU3lzdGVtIjoiV2luZG93cyAxMCIsImV4cCI6MTcwMTgzMjI0Mn0.6L6loCgsHolalbjRPlajhfZXFRA3pX0lrqFs75_Buig",  
     "r2": "https://str1.pcradio.ru/power_turk-med",
     "r3": "https://str1.pcradio.ru/uzmanfm_com-med",
     "r4": "https://pub0102.101.ru:8443/stream/personal/aacp/64/794981?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJrZXkiOiJlNDQzMWUxMzEyYmJhN2E2ZjdkMmZiOTQ0OGI3MWNhZiIsIklQIjoiOTUuNjUuOTIuMTc2IiwiVUEiOiJNb3ppbGxhXC81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXRcLzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZVwvMTExLjAuMC4wIFNhZmFyaVwvNTM3LjM2IiwiUmVmIjoiaHR0cHM6XC9cLzEwMS5ydVwvIiwidWlkX2NoYW5uZWwiOiI3OTQ5ODEiLCJ0eXBlX2NoYW5uZWwiOiJwZXJzb25hbCIsInR5cGVEZXZpY2UiOiJQQyIsIkJyb3dzZXIiOiJDaHJvbWUiLCJCcm93c2VyVmVyc2lvbiI6IjExMS4wLjAuMCIsIlN5c3RlbSI6IldpbmRvd3MgMTAiLCJleHAiOjE2ODAzMTc0MjN9.PjxkCrFyMR4CI76GVic96QmW-Hs9ls5_sDGsrNCfLm0",
