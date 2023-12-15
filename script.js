@@ -6,7 +6,7 @@ const stations = {
     "r2": "https://str1.pcradio.ru/power_turk-med",
     "r3": "https://str1.pcradio.ru/uzmanfm_com-med",
     "r4": "https://a9.radioheart.ru:8010/RH76673",
-    "r5": "https://str1.pcradio.ru/marusya_fm-med",
+    "r5": "https://halizgagauz.s02.radio-tochka.com:8025/radio",
 };
 radioBtns.forEach(rb => {
     rb.addEventListener('input', e => {
