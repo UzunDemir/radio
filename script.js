@@ -2,7 +2,7 @@
 const radioBtns = document.querySelectorAll('input[type=radio]');
 const player = document.createElement("audio");
 const stations = {
-    "r1": "https://pub0202.101.ru:8443/stream/personal/aacp/64/794981?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJrZXkiOiJhOTIyNzIzY2ZkMWIxMTNiYWM4YjY0MjRjYTUwODQ5NiIsIklQIjoiOTUuNjUuOTIuMTc2IiwiVUEiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTE5LjAuMC4wIFNhZmFyaS81MzcuMzYiLCJSZWYiOiJodHRwczovLzEwMS5ydS8iLCJ1aWRfY2hhbm5lbCI6Ijc5NDk4MSIsInR5cGVfY2hhbm5lbCI6InBlcnNvbmFsIiwidHlwZURldmljZSI6IlBDIiwiQnJvd3NlciI6IkNocm9tZSIsIkJyb3dzZXJWZXJzaW9uIjoiMTE5LjAuMC4wIiwiU3lzdGVtIjoiV2luZG93cyAxMCIsImV4cCI6MTcwMTgzMjI0Mn0.6L6loCgsHolalbjRPlajhfZXFRA3pX0lrqFs75_Buig",  
+    "r1": "https://pub0102.101.ru:8443/stream/personal/aacp/64/794981?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJrZXkiOiI5OWI2MjA2YTYxNGM0ZGYwMTEwYTQ3NDIzNDlhMjVmYSIsIklQIjoiOTUuNjUuOTIuMTc2IiwiVUEiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTI5LjAuMC4wIFNhZmFyaS81MzcuMzYiLCJSZWYiOiJodHRwczovLzEwMS5ydS8iLCJ1aWRfY2hhbm5lbCI6Ijc5NDk4MSIsInR5cGVfY2hhbm5lbCI6InBlcnNvbmFsIiwidHlwZURldmljZSI6IlBDIiwiQnJvd3NlciI6IkNocm9tZSIsIkJyb3dzZXJWZXJzaW9uIjoiMTI5LjAuMC4wIiwiU3lzdGVtIjoiV2luZG93cyAxMCIsImV4cCI6MTcyODExMDYzOX0.NF1i_XQNv3rkRDGIQs8L3_JykCEUtoSi5Ks-mkCEvK8",  
     "r2": "https://str1.pcradio.ru/power_turk-med",
     "r3": "https://str1.pcradio.ru/uzmanfm_com-med",
     "r4": "https://a9.radioheart.ru:8010/RH76673",
