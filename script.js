@@ -2,7 +2,7 @@
 const radioBtns = document.querySelectorAll('input[type=radio]');
 const player = document.createElement("audio");
 const stations = {
-    "r1": "https://pub0102.101.ru:8443/stream/personal/aacp/64/794981?token=",  
+    "r1": "https://pub0102.101.ru:8443/stream/personal/aacp/64/794981",  
     "r2": "https://str1.pcradio.ru/power_turk-med",
     "r3": "https://str1.pcradio.ru/uzmanfm_com-med",
     "r4": "https://a9.radioheart.ru:8010/RH76673",
