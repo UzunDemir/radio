@@ -5,7 +5,7 @@ const stations = {
     "r1": "https://pub0102.101.ru:8443/stream/personal/aacp/64/794981",  
     "r2": "https://old.grt.md/radio",
     "r3": "https://halizgagauz.s02.radio-tochka.com:8025/radio", 
-    "r4": "https://a9.radioheart.ru:8010/RH76673",
+    "r4": "https://rusradio.hostingradio.ru/rusradio96.aacp",
     "r5": "https://emg02.hostingradio.ru/retrofmspb128.mp3",
 };
 radioBtns.forEach(rb => {
